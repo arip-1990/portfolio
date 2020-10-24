@@ -1,0 +1,36 @@
+@import "~modern-css-reset";
+@import "font";
+@import "header";
+@import "nav";
+@import "main";
+@import "utils";
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #404040;
+    background-color: #e5e5e5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+button,
+input,
+textarea {
+    outline: none;
+}
+
+#scroll-up {
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    width: 27px;
+    height: 27px;
+    background: url(../images/arow-up.png) no-repeat;
+    z-index: 999;
+}

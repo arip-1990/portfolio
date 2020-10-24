@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Thin.ttf) format("opentype");
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-ThinItalic.ttf) format("opentype");
+    font-style: italic;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf) format("opentype");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-LightItalic.ttf) format("opentype");
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf) format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Italic.ttf) format("opentype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Medium.ttf) format("opentype");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-MediumItalic.ttf) format("opentype");
+    font-style: italic;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf) format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-BoldItalic.ttf) format("opentype");
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Black.ttf) format("opentype");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-BlackItalic.ttf) format("opentype");
+    font-style: italic;
+    font-weight: 900;
+}
+
+//================ Icons ======================//
+@font-face {
+    font-family: "Icon";
+    src: url(../fonts/icons.woff2) format("woff2"),
+        url(../fonts/icons.woff) format("woff"),
+        url(../fonts/icons.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*="icon"]:after,
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    display: inline-block;
+    font: normal normal normal 1em/1 Icon;
+    text-transform: none;
+    /* opacity: .8; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+// Animation
+.animate-spin {
+    display: inline-block;
+    animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+// Codes
+.icon-plus:before {
+    content: "\e800";
+}
+.icon-comment:before {
+    content: "\e802";
+}
+.icon-heart:before {
+    content: "\e803";
+}
+.icon-instagram:before {
+    content: "\f16d";
+}
+.icon-vk:before {
+    content: "\f189";
+}
+.icon-share:before {
+    content: "\f1e0";
+}
+.icon-twitter:before {
+    content: "\f304";
+}
+.icon-facebook:before {
+    content: "\f308";
+}
